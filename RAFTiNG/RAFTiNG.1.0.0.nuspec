@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>RAFTiNG</id>
+        <version>1.0.0</version>
+        <authors>Ross</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>RAFTiNG.</description>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Adaptive.SBE" version="1.0.0.112" />
+                <dependency id="clrzmq-x64" version="2.2.5" />
+                <dependency id="log4net" version="2.0.3" />
+                <dependency id="Michonne" version="0.4.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Debug\RAFTiNG.dll" target="RAFTiNG.dll" />
+        <file src="bin\Debug\RAFTiNG.dll.CodeAnalysisLog.xml" target="RAFTiNG.dll.CodeAnalysisLog.xml" />
+        <file src="bin\Debug\RAFTiNG.dll.lastcodeanalysissucceeded" target="RAFTiNG.dll.lastcodeanalysissucceeded" />
+        <file src="bin\Debug\RAFTiNG.pdb" target="RAFTiNG.pdb" />
+    </files>
+</package>
